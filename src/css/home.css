@@ -4,16 +4,17 @@
 
 .welcome {
   /* max-width: 786px; */
+
   /* background-color: green; */
 }
 
 /* ---------------------------navbar---------------------- */
 
-.nav{
+.nav {
   background-color: orange;
   display: flex;
   align-items: center;
-  border-bottom: .3rem solid #9a381f;
+  border-bottom: 0.3rem solid #9a381f;
   position: relative;
   padding-right: 2rem;
 }
@@ -23,7 +24,7 @@
   top: 0;
   left: 0;
   width: 70%;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .left-nav-links {
@@ -39,17 +40,21 @@
 }
 
 /* ------------------banner-section--------------------- */
-.banner{
+.banner {
   height: 100vh;
   max-width: 100%;
   margin-bottom: 4rem;
 }
 
-.banner-title{
+.banner-title {
   color: white;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
-.sub-banner{
+.sub-banner {
   background-image: url(../images/CodingKids.JPG);
   background-size: cover;
   background-position: top;
@@ -62,90 +67,81 @@
   text-align: center;
 }
 
-.banner-title{
-  padding-top: 2.5rem;
-  font-size: 2rem;
-  line-height: 1.5;
-  margin-bottom: 2rem;
-}
-
-.banner-para{
+.banner-para {
   line-height: 1.6;
   color: white;
 }
 
 /* ------------------about-section--------------------- */
 
-.about-headings{
+.about-headings {
   text-align: center;
 }
 
-.about-title{
+.about-title {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: bold;
 }
 
-.about-description{
+.about-description {
   color: #777;
   margin-bottom: 3rem;
 }
 
-.about-container{
+.about-container {
   background-color: #9a381f;
   padding: 3rem;
   border-top-left-radius: 6rem;
   margin-bottom: 6rem;
 }
 
-.about-card{
-  background-color: rgba(0, 0, 0, .7);
+.about-card {
+  background-color: rgba(0, 0, 0, 0.7);
   max-width: 95%;
   height: 55vh;
   margin: 0 auto;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
   margin-bottom: 3rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
 }
 
-.about-card:hover{
-  box-shadow:  1.5rem 1.5rem 1.5rem rgba(0, 0, 0, .5);
-  transition: .5s all;
+.about-card:hover {
+  box-shadow: 1.5rem 1.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  transition: 0.5s all;
 }
 
-.about-card-heading{
+.about-card-heading {
   padding: 1.5rem 0;
   font-size: 2rem;
   color: #fff;
 }
 
-.about-card-text{
+.about-card-text {
   font-size: 1.2rem;
   color: #fff;
   line-height: 1.5;
 }
 
-
-.sect-title{
+.sect-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-
-.aim-section{
+.aim-section {
   min-height: 100vh;
   margin-bottom: 5rem;
 }
 
-.aim-container{
+.aim-container {
   background-color: darkorange;
   padding: 3rem 0;
 }
 
-.aim-img-container{
+.aim-img-container {
   max-width: 90%;
   margin: 0 auto;
   height: 60vh;
@@ -153,30 +149,30 @@
   text-align: center;
 }
 
-.aim-img-container:hover{
+.aim-img-container:hover {
   transform: scale(1.03);
-  transition: .5s all;
+  transition: 0.5s all;
 }
 
-.aim-img-container img{
+.aim-img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-   border-radius: 1rem;
-  border: .3rem solid #9a381f;
+  border-radius: 1rem;
+  border: 0.3rem solid #9a381f;
 }
 
-.aim-text-container{
+.aim-text-container {
   max-width: 90%;
   text-align: center;
-  margin: .3rem auto;
-  border-radius: .5rem;
-  border: .3rem solid #fff;
+  margin: 0.3rem auto;
+  border-radius: 0.5rem;
+  border: 0.3rem solid #fff;
   padding: 2rem;
   background-color: #9a381f;
 }
 
-.aim-text-title{
+.aim-text-title {
   margin-bottom: 1.5rem;
   color: #fff;
   font-size: 2rem;
@@ -186,40 +182,36 @@
 @keyframes changeColor {
   50% {
     color: #9a381f;
-    transition: .5s all;
+    transition: 0.5s all;
   }
 }
 
-
-
-.aim-text-paragraph{
+.aim-text-paragraph {
   font-size: 1.2rem;
   color: #777;
   line-height: 1.3;
 }
 
-
-.lungs-container{
+.lungs-container {
   display: flex;
   flex-wrap: wrap;
   background-color: #777;
-  padding: 3rem; 
-   border-top-right-radius: 6rem;
+  padding: 3rem;
+  border-top-right-radius: 6rem;
   margin-bottom: 6rem;
 }
 
-
-.lungs-card-image{
+.lungs-card-image {
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   position: relative;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
 
-.lungs-card-image img{
+.lungs-card-image img {
   width: 70%;
   height: 70%;
   object-fit: cover;
@@ -229,7 +221,7 @@
   transform: translate(-50%, -50%);
 }
 
-.exper-title{
+.exper-title {
   font-size: 2rem;
   color: #9a381f;
   text-align: center;
@@ -237,51 +229,51 @@
   margin-bottom: 2rem;
 }
 
-.exper-text{
+.exper-text {
   color: #777;
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.exper-row{
+.exper-row {
   /* background-color: #9a381f; */
   padding-bottom: 10rem;
 }
 
-.exper-card{
+.exper-card {
   max-width: 80%;
   height: 15rem;
-  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .5);
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
   margin: 1rem auto;
 }
 
-.exper-img-container{
+.exper-img-container {
   height: 100%;
-  border-radius: .2rem;
-  border-radius: .5rem;
+  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   width: 100%;
 }
 
-.exper-img-container img{
+.exper-img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.exper-card-description{
+.exper-card-description {
   width: 90%;
-  padding: .8rem;
+  padding: 0.8rem;
   margin: 0 auto;
   text-align: center;
 }
 
-.exper-card-description-title{
+.exper-card-description-title {
   color: #9a381f;
   font-family: normal;
 }
 
-.exper-card-text{
+.exper-card-text {
   color: #777;
   font-size: 1.2rem;
   margin-top: 1rem;
@@ -289,12 +281,13 @@
 
 @media (min-width: 768px) {
   .nav {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.8);
     padding-right: 1rem;
     width: 100%;
     z-index: 22;
     position: fixed;
   }
+
   .mobile-hamburger {
     display: none;
   }
@@ -304,15 +297,14 @@
   }
 
   .sub-nav {
-      position: relative;
-
-    }
+    position: relative;
+  }
 
   .left-nav {
     width: 100%;
-    }
+  }
 
-  .left-nav ul{
+  .left-nav button {
     background-color: transparent;
     display: block;
     position: absolute;
@@ -348,7 +340,7 @@
     font-size: 1.4rem;
   }
 
-  .aim-container{
+  .aim-container {
     background-color: transparent;
     display: flex;
     width: 100%;
@@ -363,7 +355,7 @@
     width: 58%;
   }
 
-  .learning-experience-container{
+  .learning-experience-container {
     /* background-color: #9a381f; */
     padding-bottom: 10rem;
     display: flex;
@@ -374,14 +366,7 @@
     width: 50%;
   }
 
-  .exper-card{
+  .exper-card {
     max-width: 70%;
   }
-  
- }
-
-
-
-
-
-
+}

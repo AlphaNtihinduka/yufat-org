@@ -1,46 +1,52 @@
 import React from 'react';
-// import { faTwitter, faFacebook, faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import '../css/footer.css';
 
 const Footer = () => (
   <div className="footer">
-      <div className='left-footer'>
-        <h2 className='footer-title title-footer'>Quick access</h2>
-        <div className='quick-links'>
-         <Link to="/About" className='footer-links'>Who we are </Link>
-         <Link to="/About" className='footer-links'>Where we are </Link>
-         <Link to="/project" className='footer-links'>What we do</Link>
-        </div>
+    <div className="left-footer">
+      <h2 className="footer-title title-footer">Quick access</h2>
+      <div className="quick-links">
+        <Link to="/About" className="footer-links">Who we are </Link>
+        <Link to="/About" className="footer-links">Where we are </Link>
+        <Link to="/project" className="footer-links">What we do</Link>
       </div>
-      <div>
-             <h2 className='follow-us title-footer'>Follow Us</h2>
-      <div className='social-links'>
-      <div>
-      <a href="www.youtube.com" className='youtube-icon foot-icon'> Twitter
+    </div>
+    <div>
+      <h2 className="follow-us title-footer">Follow Us</h2>
+      <div className="social-links">
+        <div>
+          <a href="www.youtube.com" className="youtube-icon foot-icon">
+            {' '}
+            Twitter
             {/* <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter */}
-        </a>
+          </a>
 
-        <a href="www.youtube.com" className='facebook-icon foot-icon'> Facebook
+          <a href="www.youtube.com" className="facebook-icon foot-icon">
+            {' '}
+            Facebook
             {/* <FontAwesomeIcon icon={faFacebook} size='2x'/> Facebook */}
-        </a>
-      </div>
+          </a>
+        </div>
 
         <div>
-        <a href="www.youtube.com" className='whatsupicon foot-icon'> Whatsapp
+          <a href="www.youtube.com" className="whatsupicon foot-icon">
+            {' '}
+            Whatsapp
             {/* <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Whatsapp */}
-        </a>
+          </a>
 
-        <a href="www.youtube.com" className='Instagramicon foot-icon'> Instagram
+          <a href="www.youtube.com" className="Instagramicon foot-icon">
+            {' '}
+            Instagram
             {/* <FontAwesomeIcon icon={faInstagram} size='2x'/> Instagram */}
-        </a>
+          </a>
         </div>
 
       </div>
-    <p className='footer-email'>ntivuguruzwaphilemon0@gmail.com</p>
-      </div>
- 
+      <p className="footer-email">ntivuguruzwaphilemon0@gmail.com</p>
+    </div>
+
   </div>
 );
 
