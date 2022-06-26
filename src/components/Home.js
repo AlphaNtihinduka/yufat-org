@@ -64,19 +64,17 @@ const Home = () => (
           {/* [aim-container-1] */}
           <div className="aim-container">
             <div className="aim-img-container">
-              <img src={girlcode} alt="girl code" />
+              <img src={coding1} alt="coding1" />
             </div>
 
             <div className="aim-text-container">
-              <h2 className="aim-text-title">#CodeWithHer</h2>
+              <h2 className="aim-text-title">#Introduction to ICT</h2>
               <p className="aim-text-paragraph">
-                Learning how to code gives young refugee woman a chance
-                for a brighter future. Many girls are forced into marriage in refugee
-                settlement by parents, relatives or situation.
-                Digital skills will help her get variety
-                of employment opportunities. Through CodeWithHer club,
-                YUFAT believes coding can help the girls can be
-                indipendent, earn and have a vision for their future.
+                The continous changing of technology forces
+                every individual to be equipped with technology skills.
+                This is the reality that can never be avoided now. Every member
+                of the community needs the introduction to
+                ICT skills. YUFAT equips ICT skills to community youth and children.
               </p>
             </div>
           </div>
@@ -88,7 +86,7 @@ const Home = () => (
             </div>
 
             <div className="aim-text-container">
-              <h2 className="aim-text-title">#Revolutionize Education</h2>
+              <h2 className="aim-text-title">Computer Aided Learning(CAL)</h2>
               <p className="aim-text-paragraph">
                 Children in Kyaka II refugee settlement faced learning
                 crisis due to lack of digital skills among children and teachers.
@@ -108,17 +106,18 @@ const Home = () => (
           {/* [aim-container-3] */}
           <div className="aim-container">
             <div className="aim-img-container">
-              <img src={coding1} alt="coding1" />
+              <img src={girlcode} alt="girl code" />
             </div>
-
             <div className="aim-text-container">
-              <h2 className="aim-text-title">#Introduction to ICT</h2>
+              <h2 className="aim-text-title">#CodeWithHer</h2>
               <p className="aim-text-paragraph">
-                The continous changing of technology forces
-                every individual to be equipped with technology skills.
-                This is the reality that can never be avoided now. Every member
-                of the community needs the introduction to
-                ICT skills. YUFAT equips ICT skills to community youth and children.
+                Learning how to code gives young refugee woman a chance
+                for a brighter future. Many girls are forced into marriage in refugee
+                settlement by parents, relatives or situation.
+                Digital skills will help her get variety
+                of employment opportunities. Through CodeWithHer club,
+                YUFAT believes coding can help the girls can be
+                indipendent, earn and have a vision for their future.
               </p>
             </div>
           </div>
@@ -156,10 +155,9 @@ const Home = () => (
         <div className="exper-title">A New Learning Experience</div>
 
         <p className="exper-text">
-          Microverse invests in you. Our team
-          supports you throughout your journey with us, and your career.
-          New cohorts start every 5 weeks,
-          learn more about our next start dates and applying
+          Our team
+          supports the student throughout the journey with us, and your career.
+          Refugees are equipped with skills for global opportunities
         </p>
 
         <div className="learning-experience-container">
@@ -171,10 +169,12 @@ const Home = () => (
               </div>
 
               <div className="exper-card-description">
-                <h2 className="exper-card-description-title">NO UPFRONT COST</h2>
+                <h2 className="exper-card-description-title">COLLABORATIVE LEARNING</h2>
 
                 <div className="exper-card-text">
-                  You owe us nothing until you get a job —no matter what country you’re in.
+                  The critical thinking is developed through learning
+                  with other students by doing collaborative projects and
+                  implementing solutions.
                 </div>
               </div>
             </div>
@@ -188,11 +188,9 @@ const Home = () => (
               </div>
 
               <div className="exper-card-description">
-                <h2 className="exper-card-description-title">NO UPFRONT COST</h2>
-
-                <div className="exper-card-text">
-                  You owe us nothing until you get a job —no matter what country you’re in.
-                </div>
+                <h2 className="exper-card-description-title">COMMITTED VOLUNTEERS</h2>
+                We focus to equipping the society members with digital knowledge.
+                <div className="exper-card-text" />
               </div>
             </div>
           </div>
@@ -205,10 +203,11 @@ const Home = () => (
               </div>
 
               <div className="exper-card-description">
-                <h2 className="exper-card-description-title">NO UPFRONT COST</h2>
+                <h2 className="exper-card-description-title"> SUPPORT AND ACCOUNTABILITY</h2>
 
                 <div className="exper-card-text">
-                  You owe us nothing until you get a job —no matter what country you’re in.
+                  Receive support from our dedicated ICT instructors,
+                  mentors, Student alumni, and more
                 </div>
               </div>
             </div>
