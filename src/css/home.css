@@ -1,0 +1,387 @@
+.magic-title {
+  color: orange;
+}
+
+.welcome {
+  /* max-width: 786px; */
+  /* background-color: green; */
+}
+
+/* ---------------------------navbar---------------------- */
+
+.nav{
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  border-bottom: .3rem solid #9a381f;
+  position: relative;
+  padding-right: 2rem;
+}
+
+.left-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.left-nav-links {
+  display: none;
+}
+
+.left-desk-nav .links {
+  display: block;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* ------------------banner-section--------------------- */
+.banner{
+  height: 100vh;
+  max-width: 100%;
+  margin-bottom: 4rem;
+}
+
+.banner-title{
+  color: white;
+}
+
+.sub-banner{
+  background-image: url(../images/CodingKids.JPG);
+  background-size: cover;
+  background-position: top;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.banner-title{
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.banner-para{
+  line-height: 1.6;
+  color: white;
+}
+
+/* ------------------about-section--------------------- */
+
+.about-headings{
+  text-align: center;
+}
+
+.about-title{
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-description{
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.about-container{
+  background-color: #9a381f;
+  padding: 3rem;
+  border-top-left-radius: 6rem;
+  margin-bottom: 6rem;
+}
+
+.about-card{
+  background-color: rgba(0, 0, 0, .7);
+  max-width: 95%;
+  height: 55vh;
+  margin: 0 auto;
+  border-radius: .5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
+}
+
+.about-card:hover{
+  box-shadow:  1.5rem 1.5rem 1.5rem rgba(0, 0, 0, .5);
+  transition: .5s all;
+}
+
+.about-card-heading{
+  padding: 1.5rem 0;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.about-card-text{
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+
+.sect-title{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+
+.aim-section{
+  min-height: 100vh;
+  margin-bottom: 5rem;
+}
+
+.aim-container{
+  background-color: darkorange;
+  padding: 3rem 0;
+}
+
+.aim-img-container{
+  max-width: 90%;
+  margin: 0 auto;
+  height: 60vh;
+  display: block;
+  text-align: center;
+}
+
+.aim-img-container:hover{
+  transform: scale(1.03);
+  transition: .5s all;
+}
+
+.aim-img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   border-radius: 1rem;
+  border: .3rem solid #9a381f;
+}
+
+.aim-text-container{
+  max-width: 90%;
+  text-align: center;
+  margin: .3rem auto;
+  border-radius: .5rem;
+  border: .3rem solid #fff;
+  padding: 2rem;
+  background-color: #9a381f;
+}
+
+.aim-text-title{
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 2rem;
+  animation: changeColor 4s linear infinite;
+}
+
+@keyframes changeColor {
+  50% {
+    color: #9a381f;
+    transition: .5s all;
+  }
+}
+
+
+
+.aim-text-paragraph{
+  font-size: 1.2rem;
+  color: #777;
+  line-height: 1.3;
+}
+
+
+.lungs-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #777;
+  padding: 3rem; 
+   border-top-right-radius: 6rem;
+  margin-bottom: 6rem;
+}
+
+
+.lungs-card-image{
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .7);
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.lungs-card-image img{
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exper-title{
+  font-size: 2rem;
+  color: #9a381f;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.exper-text{
+  color: #777;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.exper-row{
+  /* background-color: #9a381f; */
+  padding-bottom: 10rem;
+}
+
+.exper-card{
+  max-width: 80%;
+  height: 15rem;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .5);
+  margin: 1rem auto;
+}
+
+.exper-img-container{
+  height: 100%;
+  border-radius: .2rem;
+  border-radius: .5rem;
+  width: 100%;
+}
+
+.exper-img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.exper-card-description{
+  width: 90%;
+  padding: .8rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.exper-card-description-title{
+  color: #9a381f;
+  font-family: normal;
+}
+
+.exper-card-text{
+  color: #777;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    background-color: rgba(0, 0, 0, .8);
+    padding-right: 1rem;
+    width: 100%;
+    z-index: 22;
+    position: fixed;
+  }
+  .mobile-hamburger {
+    display: none;
+  }
+
+  .left-nav-links {
+    display: flex;
+  }
+
+  .sub-nav {
+      position: relative;
+
+    }
+
+  .left-nav {
+    width: 100%;
+    }
+
+  .left-nav ul{
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 5%;
+    font-size: 1.5rem;
+  }
+
+  .left-nav .links {
+    margin-right: 2rem;
+    color: #fff;
+  }
+
+  .about-container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .about-card {
+    background-color: #fff;
+    color: green;
+    width: 48%;
+  }
+
+  .about-card-heading {
+    color: #777;
+  }
+
+  .about-card-text {
+    color: black;
+    font-size: 1.4rem;
+  }
+
+  .aim-container{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .aim-img-container {
+    width: 40%;
+  }
+
+  .aim-text-container {
+    width: 58%;
+  }
+
+  .learning-experience-container{
+    /* background-color: #9a381f; */
+    padding-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .exper-row {
+    width: 50%;
+  }
+
+  .exper-card{
+    max-width: 70%;
+  }
+  
+ }
+
+
+
+
+
+
