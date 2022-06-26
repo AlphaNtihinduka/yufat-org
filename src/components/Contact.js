@@ -1,13 +1,11 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Banner from './Banner';
-// import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '../css/contact.css';
 import Footer from './Footer';
 import '../css/footer.css';
+import mailicon from '../images/mailicon.png';
+import whatspicon from '../images/whatspicon.png';
 
 const Contact = () => (
   <>
@@ -18,29 +16,25 @@ const Contact = () => (
         <div className="contact-bar-links">
           <div>
             <a href="www.youtube.com" className="envelope-icon foot-icon">
-              {' '}
-              Envelope
-              {/* <FontAwesomeIcon icon={faEnvelope} size='2x'/> Envelope */}
+              <img src={mailicon} alt="email" className="icon-images" />
+              info@yufat.org
             </a>
 
             <a href="www.youtube.com" className="envelope-icon foot-icon">
-              {' '}
-              Envelope
-              {/* <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Envelope */}
+              <img src={whatspicon} alt="email" className="icon-images" />
+              info@yufat.org
             </a>
           </div>
 
           <div>
             <a href="www.youtube.com" className="envelope-icon foot-icon">
-              {' '}
-              Twitter
-              {/* <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter */}
+              <img src={mailicon} alt="email" className="icon-images" />
+              info@yufat.org
             </a>
 
             <a href="www.youtube.com" className="envelope-icon foot-icon">
-              {' '}
-              Kyegegwa
-              {/* <FontAwesomeIcon icon={faLocation} size='2x'/> Kyegegwa */}
+              <img src={mailicon} alt="email" className="icon-images" />
+              info@yufat.org
             </a>
           </div>
         </div>

@@ -25,6 +25,7 @@
   left: 0;
   width: 70%;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 22;
 }
 
 .left-nav-links {
@@ -35,8 +36,14 @@
   display: block;
   color: white;
   font-size: 1.6rem;
-  text-align: center;
   margin: 2rem 0;
+  z-index: 22;
+  line-height: 10vh;
+}
+
+.left-nav button {
+  background-color: transparent;
+  border: none;
 }
 
 /* ------------------banner-section--------------------- */
@@ -311,6 +318,7 @@
     top: 1.5rem;
     right: 5%;
     font-size: 1.5rem;
+    border: none;
   }
 
   .left-nav .links {
