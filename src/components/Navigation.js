@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../css/navigation.css';
 import yufatlog from '../images/yufatlog.png'
 
@@ -25,7 +25,7 @@ const Navigation = () => {
       <button className='mobile-hamburger'
       onClick = {()=> setIsMobile(!isMobile)}
       >
-        {isMobile? <FontAwesomeIcon icon={faBars} size="2x"/>: <FontAwesomeIcon icon={faTimes} size="2x"/>}
+        {isMobile? "Bars": "Times"}
       </button>
  
   </nav>

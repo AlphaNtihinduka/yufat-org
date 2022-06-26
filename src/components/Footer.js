@@ -1,6 +1,6 @@
 import React from 'react';
-import { faTwitter, faFacebook, faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTwitter, faFacebook, faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import '../css/footer.css';
 
@@ -18,22 +18,22 @@ const Footer = () => (
              <h2 className='follow-us title-footer'>Follow Us</h2>
       <div className='social-links'>
       <div>
-      <a href="www.youtube.com" className='youtube-icon foot-icon'>
-            <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter
+      <a href="www.youtube.com" className='youtube-icon foot-icon'> Twitter
+            {/* <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter */}
         </a>
 
-        <a href="www.youtube.com" className='facebook-icon foot-icon'>
-            <FontAwesomeIcon icon={faFacebook} size='2x'/> Facebook
+        <a href="www.youtube.com" className='facebook-icon foot-icon'> Facebook
+            {/* <FontAwesomeIcon icon={faFacebook} size='2x'/> Facebook */}
         </a>
       </div>
 
         <div>
-        <a href="www.youtube.com" className='whatsupicon foot-icon'>
-            <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Whatsapp
+        <a href="www.youtube.com" className='whatsupicon foot-icon'> Whatsapp
+            {/* <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Whatsapp */}
         </a>
 
-        <a href="www.youtube.com" className='Instagramicon foot-icon'>
-            <FontAwesomeIcon icon={faInstagram} size='2x'/> Instagram
+        <a href="www.youtube.com" className='Instagramicon foot-icon'> Instagram
+            {/* <FontAwesomeIcon icon={faInstagram} size='2x'/> Instagram */}
         </a>
         </div>
 

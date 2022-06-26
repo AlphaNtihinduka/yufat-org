@@ -1,10 +1,10 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Banner from './Banner';
-import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '../css/contact.css';
 import Footer from './Footer';
 import '../css/footer.css'
@@ -17,22 +17,22 @@ const Contact = () => (
         <section className='contact-section'>
           <div className='contact-bar-links'>
          <div>
-         <a href="www.youtube.com" className='envelope-icon foot-icon'>
-            <FontAwesomeIcon icon={faEnvelope} size='2x'/> Envelope
+         <a href="www.youtube.com" className='envelope-icon foot-icon'> Envelope
+            {/* <FontAwesomeIcon icon={faEnvelope} size='2x'/> Envelope */}
          </a>
 
-         <a href="www.youtube.com" className='envelope-icon foot-icon'>
-            <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Envelope
+         <a href="www.youtube.com" className='envelope-icon foot-icon'> Envelope
+            {/* <FontAwesomeIcon icon={faWhatsapp} size='2x'/> Envelope */}
          </a>
          </div>
         
         <div>
-        <a href="www.youtube.com" className='envelope-icon foot-icon'>
-            <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter
+        <a href="www.youtube.com" className='envelope-icon foot-icon'> Twitter
+            {/* <FontAwesomeIcon icon={faTwitter} size='2x'/> Twitter */}
          </a>
 
-         <a href="www.youtube.com" className='envelope-icon foot-icon'>
-            <FontAwesomeIcon icon={faLocation} size='2x'/> Kyegegwa
+         <a href="www.youtube.com" className='envelope-icon foot-icon'> Kyegegwa
+            {/* <FontAwesomeIcon icon={faLocation} size='2x'/> Kyegegwa */}
          </a>
         </div>
           </div>
