@@ -44,7 +44,7 @@ const Footer = () => (
         </div>
 
       </div>
-      <p className="footer-email">ntivuguruzwaphilemon0@gmail.com</p>
+      <p className="footer-email">info@yufat.org</p>
     </div>
 
   </div>
