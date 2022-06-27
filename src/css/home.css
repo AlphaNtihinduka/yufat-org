@@ -54,7 +54,7 @@
 }
 
 .banner-title {
-  color: white;
+  color: #9a381f;
   padding-top: 2.5rem;
   font-size: 2rem;
   line-height: 1.5;
@@ -76,7 +76,13 @@
 
 .banner-para {
   line-height: 1.6;
-  color: white;
+  color: green;
+  font-size: 1.7rem;
+}
+
+.ability-message {
+  font-size: 1.3rem;
+  color: rgb(215, 207, 53);
 }
 
 /* ------------------about-section--------------------- */
@@ -286,6 +292,10 @@
   margin-top: 1rem;
 }
 
+.common-programms {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .nav {
     background-color: rgba(0, 0, 0, 0.8);
@@ -371,8 +381,11 @@
     overflow-y: scroll;
   }
 
+  .aim-text-container::-webkit-scrollbar {
+    display: none;
+  }
+
   .learning-experience-container {
-    /* background-color: #9a381f; */
     padding-bottom: 10rem;
     display: flex;
     flex-wrap: wrap;

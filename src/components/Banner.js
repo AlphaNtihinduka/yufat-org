@@ -7,7 +7,7 @@ const Banner = () => (
       <h1 className="banner-title"> YOUTH UNITED FOR AFRICAN TRANSFORMATION</h1>
       <p className="banner-para">
         Join the Community that believes
-
+        <p className="ability-message">Refugees, Girls, People with disability can contribute equally in technology</p>
       </p>
     </div>
   </div>

@@ -221,10 +221,11 @@ const Home = () => (
               </div>
 
               <div className="exper-card-description">
-                <h2 className="exper-card-description-title">NO UPFRONT COST</h2>
+                <h2 className="exper-card-description-title">SELF PACED RESEARCH</h2>
 
                 <div className="exper-card-text">
-                  You owe us nothing until you get a job —no matter what country you’re in.
+                  The Students are allowed to access the computer laboratory
+                  at anytime to make personal research.
                 </div>
               </div>
             </div>

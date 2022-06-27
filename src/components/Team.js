@@ -69,7 +69,7 @@ const Team = () => (
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">IRADUKUNDA Julliet</h3>
+                <h3 className="team-card-title">MUKENGE Sifa</h3>
                 <p className="team-card-text">Human Resource</p>
               </div>
 
@@ -93,12 +93,12 @@ const Team = () => (
             {/* {team-card-6} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={profile} alt="" />
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <h3 className="team-card-title">IRADUKUNDA Juliet</h3>
+                <p className="team-card-text">Secretary</p>
               </div>
 
               <div className="team-card-footer" />
