@@ -120,11 +120,7 @@
 }
 
 @media (min-width: 768px) {
-  /* .team-row {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .team-card {
-    } */
+  .team-row {
+    padding: 2rem 5rem;
+  }
 }

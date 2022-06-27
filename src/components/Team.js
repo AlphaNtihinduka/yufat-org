@@ -6,6 +6,9 @@ import '../css/team.css';
 import Footer from './Footer';
 import Banner from './Banner';
 import '../css/footer.css';
+import elvis from '../images/elvis.jpg';
+import alpha from '../images/alpha.jpg';
+import profile from '../images/profile.png';
 
 const Team = () => (
   <>
@@ -20,12 +23,12 @@ const Team = () => (
             {/* {team-card-1} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={alpha} alt="" />
               </div>
 
               <div className="team-card-descr">
                 <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <p className="team-card-text">CEO</p>
               </div>
 
               <div className="team-card-footer" />
@@ -38,8 +41,8 @@ const Team = () => (
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <h3 className="team-card-title">MUGWANEZA Laurent</h3>
+                <p className="team-card-text">Finance Director</p>
               </div>
 
               <div className="team-card-footer" />
@@ -48,12 +51,12 @@ const Team = () => (
             {/* {team-card-3} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={elvis} alt="" />
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <h3 className="team-card-title">NDAKYAISABA Elvis</h3>
+                <p className="team-card-text">Programs Director</p>
               </div>
 
               <div className="team-card-footer" />
@@ -62,12 +65,12 @@ const Team = () => (
             {/* {team-card-4} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={profile} alt="" />
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <h3 className="team-card-title">IRADUKUNDA Julliet</h3>
+                <p className="team-card-text">Human Resource</p>
               </div>
 
               <div className="team-card-footer" />
@@ -76,12 +79,12 @@ const Team = () => (
             {/* {team-card-5} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={profile} alt="" />
               </div>
 
               <div className="team-card-descr">
-                <h3 className="team-card-title">NTIHINDUKA Alpha</h3>
-                <p className="team-card-text">Founder&CEO</p>
+                <h3 className="team-card-title">RUTEMBESE Alphonse</h3>
+                <p className="team-card-text">Education coordinator</p>
               </div>
 
               <div className="team-card-footer" />

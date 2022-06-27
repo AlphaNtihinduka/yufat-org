@@ -52,10 +52,36 @@
   margin-top: 2rem;
 }
 
+.copyright-text {
+  padding: 2rem 3rem;
+  color: #fff;
+}
+
+.donate-btn {
+  border: 0.2rem solid #fff;
+  padding: 1rem;
+  background-color: rgba(255, 255, 0, 0.837);
+  font-size: 1.4rem;
+  color: #fff;
+  width: 7rem;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .footer {
+    padding: 3rem;
+  }
+
+  .sub-footer {
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
+  }
+
+  .donate-btn {
+    margin: 0;
+    height: 4rem;
   }
 }
