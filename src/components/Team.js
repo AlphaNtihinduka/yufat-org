@@ -9,6 +9,7 @@ import '../css/footer.css';
 import elvis from '../images/elvis.jpg';
 import alpha from '../images/alpha.jpg';
 import profile from '../images/profile.png';
+import sifa from '../images/sifa.jpg';
 
 const Team = () => (
   <>
@@ -23,7 +24,7 @@ const Team = () => (
             {/* {team-card-1} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={alpha} alt="" />
+                <img src={alpha} alt="alpha" />
               </div>
 
               <div className="team-card-descr">
@@ -37,7 +38,7 @@ const Team = () => (
             {/* {team-card-2} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={lrtn} alt="" />
+                <img src={lrtn} alt="Laurent" />
               </div>
 
               <div className="team-card-descr">
@@ -51,7 +52,7 @@ const Team = () => (
             {/* {team-card-3} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={elvis} alt="" />
+                <img src={elvis} alt="elvis" />
               </div>
 
               <div className="team-card-descr">
@@ -65,7 +66,7 @@ const Team = () => (
             {/* {team-card-4} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={profile} alt="" />
+                <img src={sifa} alt="sifa mukenge" />
               </div>
 
               <div className="team-card-descr">
@@ -79,7 +80,7 @@ const Team = () => (
             {/* {team-card-5} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={profile} alt="" />
+                <img src={profile} alt="alphonse" />
               </div>
 
               <div className="team-card-descr">
@@ -93,7 +94,7 @@ const Team = () => (
             {/* {team-card-6} */}
             <div className="team-card">
               <div className="team-img-container">
-                <img src={profile} alt="" />
+                <img src={profile} alt="juliet" />
               </div>
 
               <div className="team-card-descr">
