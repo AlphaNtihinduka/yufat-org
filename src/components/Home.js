@@ -90,7 +90,7 @@ const Home = () => (
               <p className="aim-text-paragraph">
                 Children in Kyaka II refugee settlement faced learning
                 crisis due to lack of digital skills among children and teachers.
-                This brings us to thtink about the new system of learning,
+                This brings us to think about the new system of learning,
                 reimagining
                 education. Depending on research, many teachers and
                 students do not have knowledge in
