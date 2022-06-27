@@ -253,8 +253,11 @@
 }
 
 .exper-row {
-  /* background-color: #9a381f; */
   padding-bottom: 10rem;
+}
+
+.expert-committed {
+  margin-top: 3rem;
 }
 
 .exper-card {
@@ -293,6 +296,10 @@
   color: #777;
   font-size: 1.2rem;
   margin-top: 1rem;
+}
+
+.collaborative {
+  font-size: 1.1rem;
 }
 
 .common-programms {

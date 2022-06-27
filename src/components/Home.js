@@ -171,7 +171,7 @@ const Home = () => (
               <div className="exper-card-description">
                 <h2 className="exper-card-description-title">COLLABORATIVE LEARNING</h2>
 
-                <div className="exper-card-text">
+                <div className="exper-card-text collaborative">
                   The critical thinking is developed through learning
                   with other students by doing collaborative projects and
                   implementing solutions.
