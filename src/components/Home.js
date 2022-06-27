@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Banner from './Banner';
 import '../css/home.css';
 import girlcode from '../images/girlcode.JPG';
-import codingKids from '../images/CodingKids.JPG';
+import codingKids from '../images/CodingKids-1.JPG';
 import coding1 from '../images/coding1.jpg';
 import cssicon from '../images/cssicon.png';
 import microone from '../images/microone.png';

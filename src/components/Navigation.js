@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../css/navigation.css';
 import yufatlog from '../images/yufatlog.png';
+import barsicon from '../images/barsicon.png';
+import timesicon from '../images/timesicon.png';
 
 const Navigation = () => {
   const [isMobile, setIsMobile] = useState(true);
@@ -31,7 +33,7 @@ const Navigation = () => {
         className="mobile-hamburger"
         onClick={() => setIsMobile(!isMobile)}
       >
-        {isMobile ? 'Bars' : 'Times'}
+        {isMobile ? <img src={barsicon} alt="email" className="icon-images" /> : <img src={timesicon} alt="email" className="icon-images" />}
       </button>
 
     </nav>
