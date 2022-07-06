@@ -17,7 +17,7 @@ function App() {
             <Suspense fallback={(
               <div className="center">
                 <div className="ring" />
-                <span>loading...</span>
+                <span className="loader">loading...</span>
               </div>
           )}
             >
