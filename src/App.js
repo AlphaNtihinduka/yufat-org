@@ -10,7 +10,7 @@ const Contact = lazy(() => import('./components/Contact'));
 function App() {
   return (
     <div className="App">
-      <Routes>
+      <Routes basename="/yufat-org">
         <Route
           path="/"
           element={(
