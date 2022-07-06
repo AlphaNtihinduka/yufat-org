@@ -9,16 +9,41 @@ const Contact = lazy(() => import('./components/Contact'));
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="team" element={<Team />} />
-          <Route path="project" element={<Project />} />
-          <Route path="about" element={<Contact />} />
-        </Routes>
-      </div>
-    </Suspense>
+    <div className="App">
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Suspense fallback="loading..."><Home /></Suspense>
+
+        }
+        />
+        <Route
+          path="team"
+          element={(
+            <Suspense fallback="loading...">
+              {' '}
+              <Team />
+            </Suspense>
+        )}
+        />
+        <Route
+          path="project"
+          element={
+            <Suspense fallback="loading..."><Project /></Suspense>
+
+        }
+        />
+        <Route
+          path="about"
+          element={
+            <Suspense fallback="loading..."><Contact /></Suspense>
+
+        }
+        />
+      </Routes>
+    </div>
+
   );
 }
 
