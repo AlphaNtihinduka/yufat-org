@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Banner from './Banner';
-import girlcode from '../images/girlcode.JPG';
+import girlcode from '../images/girlscode.jpg';
 import codingKids from '../images/CodingKids-1.JPG';
 import coding1 from '../images/coding1.jpg';
 import '../css/project.css';
