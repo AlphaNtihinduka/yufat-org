@@ -13,15 +13,27 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={
-            <Suspense fallback="loading..."><Home /></Suspense>
-
-        }
+          element={(
+            <Suspense fallback={(
+              <div className="center">
+                <div className="ring" />
+                <span>loading...</span>
+              </div>
+          )}
+            >
+              <Home />
+            </Suspense>
+          )}
         />
         <Route
           path="team"
           element={(
-            <Suspense fallback="loading...">
+            <Suspense fallback={(
+              <div className="center">
+                <div className="ring" />
+                <span>loading...</span>
+              </div>
+          )}>
               {' '}
               <Team />
             </Suspense>
@@ -29,17 +41,29 @@ function App() {
         />
         <Route
           path="project"
-          element={
-            <Suspense fallback="loading..."><Project /></Suspense>
-
-        }
+          element={(
+            <Suspense fallback={(
+              <div className="center">
+                <div className="ring" />
+                <span>loading...</span>
+              </div>
+          )}>
+              <Project />
+            </Suspense>
+          )}
         />
         <Route
           path="about"
-          element={
-            <Suspense fallback="loading..."><Contact /></Suspense>
-
-        }
+          element={(
+            <Suspense fallback={(
+              <div className="center">
+                <div className="ring" />
+                <span>loading...</span>
+              </div>
+          )}>
+              <Contact />
+            </Suspense>
+          )}
         />
       </Routes>
     </div>
